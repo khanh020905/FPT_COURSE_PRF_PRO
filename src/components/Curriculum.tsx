@@ -6,19 +6,22 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const roadmap = [
   {
-    course: "PRF192 (C)",
+    course: "C",
+    duration: "Tháng 1",
     description: "Nhập môn lập trình nền tảng, học cách máy tính xử lý và quản lý bộ nhớ.",
     topics: ["Biến & Vòng lặp", "Mảng & Con trỏ (Pointers)", "Cấu trúc định dạng & Function"],
   },
   {
-    course: "PRF193 (C++)",
-    description: "Khóa học mở rộng, tập trung vào thư viện chuẩn (STL) và tối ưu hóa.",
-    topics: ["Vector, Map & Tham chiếu", "Template & STL", "Class cơ bản", "Quản lý lỗi (Exceptions)"],
+    course: "C++",
+    duration: "Tháng 2",
+    description: "Chinh phục thuật toán mở rộng (STL). Đối mặt với mốc PE Test - Practical Exam.",
+    topics: ["Vector, Map & Tham chiếu", "Template & STL", "Class cơ bản", "Mock PE Test (Luyện tập)"],
   },
   {
-    course: "PRO192 (Java)",
-    description: "Lập trình hướng đối tượng (OOP). Tiêu chuẩn vàng để phát triển app.",
-    topics: ["Tính đóng gói, kế thừa, đa hình", "Interface & Abstract Class", "Collections Framework"],
+    course: "Java",
+    duration: "Tháng 3",
+    description: "Lập trình hướng đối tượng (OOP). Vượt qua ải PE Final để quyết định điểm pass môn.",
+    topics: ["Tính Đóng gói, Kế thừa, Đa hình", "Interface & Collections", "PE Test Final (Thi Thực Hành)"],
   },
 ];
 
@@ -77,6 +80,9 @@ export default function Curriculum() {
                       </div>
                       <div className="pl-4 mt-1">
                         <span className="text-blue-200">id</span>: <span className="text-green-300">"{item.course}"</span>,
+                      </div>
+                      <div className="pl-4 mt-1">
+                        <span className="text-blue-200">timeline</span>: <span className="text-green-300">"{item.duration}"</span>,
                       </div>
                       
                       {/* Accordion Dropdown Content */}
