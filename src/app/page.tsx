@@ -1,5 +1,4 @@
 import HeroSection from "@/components/HeroSection";
-import TechStack3D from "@/components/TechStack3D";
 import Curriculum from "@/components/Curriculum";
 import AboutUs from "@/components/AboutUs";
 
@@ -7,12 +6,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-slate-50">
       <HeroSection />
-      
-      {/* 3D Interactive Zone */}
-      <section className="relative w-full h-[500px] sm:h-[600px] bg-slate-900 overflow-hidden flex flex-col items-center justify-center border-y border-slate-800">
-        <TechStack3D />
-      </section>
-
       <Curriculum />
       
       <AboutUs />
