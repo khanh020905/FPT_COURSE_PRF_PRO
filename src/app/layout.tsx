@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://duotech-course.vercel.app"),
   title: "DUO TECH COURSE | Trở thành Product Builder chuẩn Doanh nghiệp",
   description: "Khóa học lập trình (C, C++, Java) thực chiến - Nơi hệ thống logic và kỷ luật kỹ sư tạo ra thế hệ Builder tiếp theo cùng 2 Mentors Thuần & Khánh.",
   icons: {
