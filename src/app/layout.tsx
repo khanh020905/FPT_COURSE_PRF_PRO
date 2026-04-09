@@ -26,14 +26,6 @@ export const metadata: Metadata = {
     description: "Khóa học lập trình thực chiến (C, C++, Java). Lộ trình 3 tháng tinh gọn vượt ải PE Test cùng Duo Tech.",
     url: "https://duotechcourse.com",
     siteName: "DUO TECH COURSE",
-    images: [
-      {
-        url: "https://duotech-course.vercel.app/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "DUO TECH COURSE - Lộ trình trở thành Product Builder",
-      },
-    ],
     locale: "vi_VN",
     type: "website",
   },
@@ -41,7 +33,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DUO TECH COURSE | Build Your Way Through Code",
     description: "Khóa học lập trình thực chiến ngôn ngữ C, C++, Java.",
-    images: ["https://duotech-course.vercel.app/og-image.jpg"],
   },
 };
 
