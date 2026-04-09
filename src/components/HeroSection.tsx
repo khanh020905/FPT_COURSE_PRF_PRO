@@ -1,14 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal, Code, Cpu } from "lucide-react";
 
 const cards = [
   {
     id: "c",
-    title: "C",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
     language: "Programming",
-    icon: Terminal,
     color: "text-blue-600",
     bgLight: "bg-blue-100",
     border: "border-blue-200",
@@ -19,9 +17,8 @@ const cards = [
   },
   {
     id: "cpp",
-    title: "C++",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
     language: "Programming",
-    icon: Cpu,
     color: "text-indigo-600",
     bgLight: "bg-indigo-100",
     border: "border-indigo-200",
@@ -32,9 +29,8 @@ const cards = [
   },
   {
     id: "java",
-    title: "Java",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
     language: "OOP",
-    icon: Code,
     color: "text-orange-600",
     bgLight: "bg-orange-100",
     border: "border-orange-200",
@@ -76,15 +72,29 @@ export default function HeroSection() {
             Một khóa học phát triển tư duy hiện đại, nơi hệ thống logic và kỉ luật kĩ sư nhào nặn ra thế hệ Builder tiếp theo qua các ngôn ngữ C, C++, Java.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center w-full">
             <a
               href="https://zalo.me/0335111783"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-xl text-white bg-emerald-600 hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 font-mono tracking-tight"
+              className="inline-flex items-center justify-center px-10 py-4 text-lg font-bold rounded-xl text-white bg-emerald-600 hover:bg-emerald-500 transition-all shadow-[0_0_20px_-5px_rgba(16,185,129,0.5)] hover:shadow-[0_0_30px_-5px_rgba(16,185,129,0.8)] hover:-translate-y-1 font-mono tracking-tight"
             >
               đăng_ký_ngay();
             </a>
+          </div>
+          
+          <div className="mt-6 flex justify-center w-full px-4">
+            <div className="flex flex-col items-center p-4 bg-white/60 backdrop-blur-md border border-emerald-100 rounded-2xl max-w-lg shadow-sm">
+              <p className="text-slate-700 text-base md:text-lg mb-2">
+                Học phí gốc <span className="line-through text-slate-400 font-medium tracking-tight">299k</span> chỉ còn <strong className="text-xl md:text-2xl text-emerald-600 font-extrabold mx-1 drop-shadow-sm">189k</strong> / khóa
+              </p>
+              <div className="flex items-center gap-2 text-sm text-slate-600">
+                <svg className="w-5 h-5 text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Add nhóm chính có Mentor hỗ trợ 24/7 & Tài liệu Đại học chính thống.</span>
+              </div>
+            </div>
           </div>
         </motion.div>
 
@@ -100,11 +110,8 @@ export default function HeroSection() {
               className={`bg-white border ${card.border} rounded-2xl shadow-xl overflow-hidden flex flex-col`}
             >
               {/* Card Header (Mac Window Style) */}
-              <div className={`px-4 py-3 border-b ${card.border} bg-slate-50 flex items-center gap-2`}>
-                <div className={`p-1.5 rounded-lg ${card.bgLight} mr-2`}>
-                  <card.icon className={`w-4 h-4 ${card.color}`} />
-                </div>
-                <span className="font-mono text-sm font-semibold text-slate-700">{card.title}</span>
+              <div className={`px-4 py-3 border-b ${card.border} bg-slate-50 flex items-center justify-center`}>
+                <img src={card.logo} alt={`Logo`} className="w-8 h-8 drop-shadow-sm" />
               </div>
               
               {/* Card Body (Code content) */}

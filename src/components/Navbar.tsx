@@ -29,8 +29,8 @@ export default function Navbar() {
               <div className={`bg-slate-900 rounded-xl flex items-center justify-center shadow-inner transition-all duration-500 ${isScrolled ? "w-8 h-8" : "w-9 h-9"}`}>
                 <Code2 className={`text-white transition-all duration-500 ${isScrolled ? "w-4 h-4" : "w-5 h-5"}`} />
               </div>
-              <span className="font-extrabold text-xl tracking-tight text-slate-900 ml-1">
-                FPT<span className="text-blue-600">.Code</span>
+              <span className="font-extrabold text-xl tracking-tight text-slate-900 ml-1 uppercase">
+                DUO TECH <span className="text-blue-600">COURSE</span>
               </span>
             </div>
 
