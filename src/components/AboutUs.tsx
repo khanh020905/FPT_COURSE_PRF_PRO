@@ -21,7 +21,7 @@ export default function AboutUs() {
             {/* Vấn đề ảnh ngang: Dùng aspect-video (16:9) hoặc object-cover để nó vươn mình đẹp nhất */}
             <div className="relative w-full aspect-video md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl group border border-slate-200">
               <Image 
-                src="/blogs_3b0e6d36-d9d5-4da3-9abe-e923d6f3f5c7_ck-web-02 (1).jpg" 
+                src="/og-image.jpg" 
                 alt="Thuần & Khánh - Founder của Duo Tech"
                 fill
                 className="object-cover transition-all duration-700 ease-in-out grayscale group-hover:grayscale-0 group-hover:scale-105"
