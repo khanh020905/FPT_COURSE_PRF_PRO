@@ -24,7 +24,7 @@ export default function AboutUs() {
                 src="/og-image.jpg" 
                 alt="Thuần & Khánh - Founder của Duo Tech"
                 fill
-                className="object-cover transition-all duration-700 ease-in-out grayscale group-hover:grayscale-0 group-hover:scale-105"
+                className="object-cover transition-all duration-700 ease-in-out group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 quality={90}
               />
