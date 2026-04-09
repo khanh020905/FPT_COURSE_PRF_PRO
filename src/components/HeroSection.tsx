@@ -5,8 +5,8 @@ import { Terminal, Code, Cpu } from "lucide-react";
 
 const cards = [
   {
-    id: "prf192",
-    title: "PRF192 (C)",
+    id: "c",
+    title: "C",
     language: "Programming",
     icon: Terminal,
     color: "text-blue-600",
@@ -18,8 +18,8 @@ const cards = [
     ]
   },
   {
-    id: "prf193",
-    title: "PRF193 (C++)",
+    id: "cpp",
+    title: "C++",
     language: "Programming",
     icon: Cpu,
     color: "text-indigo-600",
@@ -31,8 +31,8 @@ const cards = [
     ]
   },
   {
-    id: "pro192",
-    title: "PRO192 (Java)",
+    id: "java",
+    title: "Java",
     language: "OOP",
     icon: Code,
     color: "text-orange-600",
@@ -73,7 +73,7 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl">
-            Một khóa học phát triển tư duy hiện đại, nơi hệ thống logic và kỉ luật kĩ sư nhào nặn ra thế hệ Builder tiếp theo qua các học phần PRF192, PRF193, PRO192.
+            Một khóa học phát triển tư duy hiện đại, nơi hệ thống logic và kỉ luật kĩ sư nhào nặn ra thế hệ Builder tiếp theo qua các ngôn ngữ C, C++, Java.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

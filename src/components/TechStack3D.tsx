@@ -140,7 +140,7 @@ function Scene() {
         position={[-6, 0, 0]} // Vị trí tách biệt
         rotation={[0, 0.3, 0]}
         info={{
-          code: "PRF192",
+          code: "C",
           desc: "Nền tảng lập trình bậc thấp, tư duy logic, cấu trúc dữ liệu và giải thuật cơ bản.",
           mentor: "Mentor Thuần"
         }}
@@ -153,7 +153,7 @@ function Scene() {
         color="#6366f1" 
         position={[0, 0, 0]} // Vị trí tách biệt
         info={{
-          code: "PRF193",
+          code: "C++",
           desc: "Chinh phục Thuật toán & STL. Quản lý bộ nhớ nâng cao và hướng đối tượng.",
           mentor: "Mentor Thuần"
         }}
@@ -167,7 +167,7 @@ function Scene() {
         position={[6, 0, 0]} // Vị trí tách biệt
         rotation={[0, -0.3, 0]}
         info={{
-          code: "PRO192",
+          code: "Java",
           desc: "Java OOP chuyên sâu. Xây dựng nền móng ứng dụng chuẩn thiết kế phần mềm.",
           mentor: "Mentor Khánh"
         }}
