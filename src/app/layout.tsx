@@ -15,22 +15,22 @@ const geistMono = Geist_Mono({
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "FPT.Code | Trở thành Product Builder ngay khi còn là sinh viên",
-  description: "Khóa học lập trình FPT University (C, C++, Java) - Nơi hệ thống logic và kỷ luật kỹ sư tạo ra thế hệ Builder tiếp theo cùng 2 Mentors thực chiến Thuần & Khánh.",
+  title: "DUO TECH COURSE | Trở thành Product Builder chuẩn Doanh nghiệp",
+  description: "Khóa học lập trình (C, C++, Java) thực chiến - Nơi hệ thống logic và kỷ luật kỹ sư tạo ra thế hệ Builder tiếp theo cùng 2 Mentors Thuần & Khánh.",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231e40af' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m18 16 4-4-4-4'/><path d='m6 8-4 4 4 4'/><path d='m14.5 4-5 16'/></svg>",
   },
   openGraph: {
-    title: "FPT.Code | Build Your Way Through Code",
-    description: "Khóa học lập trình thực chiến ngôn ngữ C, C++, Java được thiết kế độc quyền dành cho sinh viên FPT University.",
-    url: "https://yourdomain.com",
-    siteName: "FPT.Code",
+    title: "DUO TECH COURSE | Build Your Way Through Code",
+    description: "Khóa học lập trình thực chiến (C, C++, Java). Lộ trình 3 tháng tinh gọn vượt ải PE Test cùng Duo Tech.",
+    url: "https://duotechcourse.com",
+    siteName: "DUO TECH COURSE",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FPT Code - Lộ trình trở thành Product Builder",
+        alt: "DUO TECH COURSE - Lộ trình trở thành Product Builder",
       },
     ],
     locale: "vi_VN",
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "FPT.Code | Build Your Way Through Code",
-    description: "Khóa học lập trình thực chiến ngôn ngữ C, C++, Java cho sinh viên FPT.",
+    title: "DUO TECH COURSE | Build Your Way Through Code",
+    description: "Khóa học lập trình thực chiến ngôn ngữ C, C++, Java.",
     images: ["/og-image.jpg"],
   },
 };
