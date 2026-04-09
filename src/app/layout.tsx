@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "DUO TECH COURSE",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://duotech-course.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "DUO TECH COURSE - Lộ trình trở thành Product Builder",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "DUO TECH COURSE | Build Your Way Through Code",
     description: "Khóa học lập trình thực chiến ngôn ngữ C, C++, Java.",
-    images: ["/og-image.jpg"],
+    images: ["https://duotech-course.vercel.app/og-image.jpg"],
   },
 };
 
