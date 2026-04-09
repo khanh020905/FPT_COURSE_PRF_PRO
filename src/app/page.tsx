@@ -21,7 +21,7 @@ export default function Home() {
             Sẵn Sàng Nâng Cấp <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Bản Thân?</span>
           </h3>
           <p className="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
-            Tham gia cộng đồng lập trình viên FPT chất lượng cao ngay hôm nay. Bứt phá tư duy và kỹ năng cùng 2 chuyên gia kỳ cựu.
+            Tham gia cộng đồng lập trình viên FPT chất lượng cao ngay hôm nay. Bứt phá tư duy và kỹ năng cùng những người Mentor từng trải, đã thực chiến và dẫn dắt hàng chục lớp học thành công.
           </p>
           <a
             href="https://zalo.me/0335111783"

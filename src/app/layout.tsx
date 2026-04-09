@@ -16,7 +16,7 @@ import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "FPT.Code | Trở thành Product Builder ngay khi còn là sinh viên",
-  description: "Khóa học lập trình FPT University (C, C++, Java) - Nơi hệ thống logic và kỷ luật kỹ sư tạo ra thế hệ Builder tiếp theo cùng chuyên gia Thuần & Khánh.",
+  description: "Khóa học lập trình FPT University (C, C++, Java) - Nơi hệ thống logic và kỷ luật kỹ sư tạo ra thế hệ Builder tiếp theo cùng 2 Mentors thực chiến Thuần & Khánh.",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231e40af' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='m18 16 4-4-4-4'/><path d='m6 8-4 4 4 4'/><path d='m14.5 4-5 16'/></svg>",
   },
