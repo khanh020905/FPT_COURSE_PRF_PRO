@@ -60,10 +60,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center max-w-3xl mb-20"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-800/80 border border-slate-700/50 shadow-inner text-sm font-semibold tracking-wide text-slate-300 mb-8 backdrop-blur-md">
-            <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_rgba(34,211,238,0.8)] animate-pulse"></span>
-            FPT University Courses
-          </div>
+          
           
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-8 leading-[1.15] drop-shadow-sm">
             // Build Your Way <br className="hidden md:block" />

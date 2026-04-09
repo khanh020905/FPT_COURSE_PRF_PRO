@@ -9,3 +9,30 @@
     100% { transform: translateX(200%) skewX(-15deg); }
   }
 }
+
+@layer base {
+  html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  /* Custom Vertical Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 0px; /* Hide horizontal scrollbar completely */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f172a; /* slate-900 */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #334155; /* slate-700 */
+    border-radius: 8px;
+    border: 2px solid #0f172a; /* Thêm padding giả bằng border */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #475569; /* slate-600 */
+  }
+}
