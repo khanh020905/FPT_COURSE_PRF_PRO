@@ -37,7 +37,7 @@ export default function Navbar() {
             {/* Center Links */}
             <div className="hidden md:flex space-x-10">
               <Link href="#learning-path" className="text-sm font-bold text-slate-600 hover:text-blue-600 transition-colors uppercase tracking-wider">
-                // Learning Path
+                Learning Path
               </Link>
               <Link href="#courses" className="text-sm font-bold text-slate-600 hover:text-blue-600 transition-colors uppercase tracking-wider">
                 Courses

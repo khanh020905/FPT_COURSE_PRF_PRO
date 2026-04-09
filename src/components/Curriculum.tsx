@@ -10,9 +10,30 @@ const roadmap = [
     duration: "3 Tháng",
     description: "Nhập môn lập trình nền tảng, học cách máy tính xử lý và quản lý bộ nhớ ở mức độ thấp (Low-level).",
     phases: [
-      { month: "Tháng 1", name: "Foundation", topics: ["Tư duy logic thuật toán", "Biến, Rẽ nhánh, Vòng lặp", "Hàm con (Functions)"] },
-      { month: "Tháng 2", name: "Memory & PE", topics: ["Con trỏ (Pointers) chuyên sâu", "Mảng & Xử lý Chuỗi", "Luyện Giải Mock PE Test"] },
-      { month: "Tháng 3", name: "Advanced", topics: ["Struct & Dữ liệu tự định nghĩa", "Thao tác trên File", "Final PE Test (Thi Thực Hành)"] }
+      { month: "Tháng 1", name: "Foundation", topics: [
+        "1. Chương trình đầu tiên", 
+        "2. Biến và kiểu dữ liệu", 
+        "3. Các phép toán với biến", 
+        "4. Cấu trúc rẽ nhánh quyết định điều kiện", 
+        "5. Cấu trúc vòng lặp", 
+        "6. Mảng (Array)"
+      ] },
+      { month: "Tháng 2", name: "Memory & PE", topics: [
+        "7. Làm việc với kiểu dữ liệu String", 
+        "8. Function (Hàm)", 
+        "9. Kiểu dữ liệu tự định nghĩa (Struct)", 
+        "10. Vùng nhớ Stack", 
+        "11. Pointer & Reference", 
+        "12. Vùng nhớ Heap", 
+        "🔥 Luyện Giải Mock PE Test"
+      ] },
+      { month: "Tháng 3", name: "Advanced", topics: [
+        "13. Sơ lược về Cấu trúc dữ liệu và giải thuật", 
+        "14. Làm việc với File", 
+        "15. Các chuyên đề kỹ thuật nâng cao", 
+        "16. Bài tập tổng hợp và nâng cao", 
+        "17. Project thực tế & Final PE Test"
+      ] }
     ]
   },
   {
@@ -20,9 +41,30 @@ const roadmap = [
     duration: "3 Tháng",
     description: "Chinh phục thuật toán mở rộng và tiếp cận mô hình Hướng đối tượng thông qua sức mạnh của C++.",
     phases: [
-      { month: "Tháng 1", name: "Transition", topics: ["Reference (Tham chiếu)", "Class & Objects căn bản", "Tính Đóng gói (Encapsulation)"] },
-      { month: "Tháng 2", name: "OOP & PE Test", topics: ["Kế thừa & Đa hình", "Nạp chồng toán tử (Overloading)", "Mock PE Test (Luyện tập)"] },
-      { month: "Tháng 3", name: "STL Mastery", topics: ["Templates", "Thư viện chuẩn: Vector, Map, Set", "Final PE Test C++"] }
+      { month: "Tháng 1", name: "Transition", topics: [
+        "1. Chương trình đầu tiên & Cú pháp C++", 
+        "2. Biến và kiểu dữ liệu nâng cao", 
+        "3. Toán tử và nạp chồng toán tử", 
+        "4. Cấu trúc điều khiển & Rẽ nhánh", 
+        "5. Cấu trúc vòng lặp", 
+        "6. Mảng & Vector cơ bản"
+      ] },
+      { month: "Tháng 2", name: "OOP & PE Test", topics: [
+        "7. Làm việc với std::string", 
+        "8. Function & Methods", 
+        "9. OOP: Lớp (Class) và Đối tượng (Object)", 
+        "10. Quản lý Vùng nhớ Stack", 
+        "11. Pointer & Reference trong C++", 
+        "12. Quản lý Vùng nhớ Heap & Cấp phát động", 
+        "🔥 Mock PE Test (Luyện tập cường độ cao)"
+      ] },
+      { month: "Tháng 3", name: "STL Mastery", topics: [
+        "13. Cấu trúc dữ liệu & Thư viện chuẩn STL", 
+        "14. Làm việc với File fstream", 
+        "15. Tính Kế thừa & Đa hình (Polymorphism)", 
+        "16. Bài tập OOP tổng hợp và nâng cao", 
+        "17. Project thực tế & Chốt Sổ Final PE Test"
+      ] }
     ]
   },
   {
@@ -30,9 +72,30 @@ const roadmap = [
     duration: "3 Tháng",
     description: "Ngôn ngữ tiêu chuẩn công nghiệp (Enterprise). Làm chủ thiết kế phần mềm hướng đối tượng thực thụ.",
     phases: [
-      { month: "Tháng 1", name: "Java Core", topics: ["Cú pháp và JVM Basics", "Memory: Heap vs Stack, StringPool", "4 Đặc tính OOP thực chiến"] },
-      { month: "Tháng 2", name: "Architecture & PE", topics: ["Abstract Class & Interfaces", "Xử lý ngoại lệ (Exceptions)", "Thực chiến giải đề PE Test"] },
-      { month: "Tháng 3", name: "Advanced & Final", topics: ["Java Collections Framework", "Luồng (Multithreading)", "PE Test Final Chốt Sổ"] }
+      { month: "Tháng 1", name: "Java Core", topics: [
+        "1. Chương trình đầu tiên & Cấu trúc JVM", 
+        "2. Biến, Kiểu dữ liệu & Type Casting", 
+        "3. Các phép toán với biến", 
+        "4. Cấu trúc rẽ nhánh (if/switch)", 
+        "5. Vòng lặp & Break/Continue", 
+        "6. Mảng (Array) 1 chiều & 2 chiều"
+      ] },
+      { month: "Tháng 2", name: "Architecture & PE", topics: [
+        "7. Xử lý String và StringPool", 
+        "8. Phương thức (Methods) và Nạp chồng", 
+        "9. OOP: Đặc tính Đóng gói & Kế thừa", 
+        "10. Java Memory (Stack vs Heap)", 
+        "11. Tham chiếu Đối tượng (Object Reference)", 
+        "12. Đa hình & Abtract / Interface", 
+        "🔥 Thực chiến giải đề PE Test"
+      ] },
+      { month: "Tháng 3", name: "Advanced & Final", topics: [
+        "13. Cấu trúc dữ liệu (Collections Framework)", 
+        "14. Làm việc với File & I/O Streams", 
+        "15. Xử lý ngoại lệ (Exceptions) & Threads", 
+        "16. Bài tập tổng hợp Java Core", 
+        "17. Project thực tế & Điểm danh Final PE Test"
+      ] }
     ]
   },
 ];
